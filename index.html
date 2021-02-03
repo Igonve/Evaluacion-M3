@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Evaluación MODULO 3</title>
+        <link rel="stylesheet" href="styles.css">
+        <script  src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+        <script src="app.js"></script>
+    </head>
+    <body>
+        
+        
+    <div class="container">
+        <div class="jumbotron">
+            <h1 class="display-4">G Protein-Coupled Receptors</h1>
+            <p class="lead">Tn the past five years, the field of GPCR structure has exploded. 
+                GPCRs (G protein-coupled receptors) are small membrane-spanning proteins, 
+                with most of their surface buried inside the membrane. This makes them 
+                notoriously difficult to crystallize. However, there is a great incentive to 
+                determine these structures: GPCRs are at the center of signaling pathways 
+                that control all manner of essential processes, ranging from vision to carcinogenesis,
+                and thus are important targets for therapeutic intervention. </p>
+
+        <p id="p1">Recently,the development of clever engineering techniques, such as fusing soluble proteins to the 
+            receptor or decorating them with antibodies or nanobodies, have provided crystallographic structures for a
+            wide range of GPCRs with diffusable ligands.</p>
+   
+            <button class="btn btn-dark" id="btn1">Add Data</button>
+            <button class="btn btn-dark" id="btn1-1">Get Data</button>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+    <div class="container">
+        <div class="jumbotron">
+            <h1 class="display-4">Anatomy of GPCR</h1>
+            <p class="lead"> </p>
+            <p id="p2"> By comparing the different GPCR structures, researchers at the PSI GPCR Network have revealed 
+                a few common themes in their form and function, as shown here on the beta2 adrenergic receptor 
+                (PDB entry 2rh1). As expected, all have the characteristic seven alpha helices passing up and 
+                down through the membrane, connected by loops that extend into the surrounding solvent on both 
+                sides of the membrane.</p>
+            <hr class="my-4">
+            
+            <button id="btn2" type="button" class="btn btn-danger">Get Red</button>
+          </div>
+        </div>
+
+
+
+
+
+
+
+        <div class="container">
+            <div class="jumbotron">
+                <h1 class="display-4">Graphic Structure</h1>
+                <img id="img1" class="img-fluid" src="Structures-of-G-Protein-Coupled-Receptor-GPCR-Complexes-with-Signal-Transducers-A.png" alt="protein-gpcr">
+                <hr class="my-4">
+                <p >G Protein-Coupled Receptors Graphic Structure</p>
+                <button id=btn3 type="button" class="btn btn-dark">Toggle Image</button>
+              </div>
+            </div>
+
+
+
+
+
+            <div class="container">
+                <div class="jumbotron">
+                    <h1 class="display-4">G Protein-Coupled Receptors</h1>
+                    <p class="lead">Tn the past five years, the field of GPCR structure has exploded. GPCRs (G protein-coupled receptors) are small membrane-spanning proteins, 
+                        with most of their surface buried inside the membrane. This makes them notoriously difficult to crystallize. However, there is a great incentive to 
+                        determine these structures: GPCRs are at the center of signaling pathways that control all manner of essential processes, ranging from vision to carcinogenesis,
+                        and thus are important targets for therapeutic intervention. </p>
+                    <p> The structure of rhodopsin in 2000 set the stage, giving the first glimpse at their structure. Recently, 
+                        the development of clever engineering techniques, such as fusing soluble proteins to the receptor or decorating them with antibodies or nanobodies, 
+                        have provided crystallographic structures for a wide range of GPCRs with diffusable ligands.</p>
+                        <p id=p3></p>
+                    <hr class="my-4">
+                   
+                    
+                    <button id=btn4 type="button" class="btn btn-success">Add More Info</button>
+
+                   
+
+
+                  </div>
+                </div>
+
+
+
+
+
+                <div class="container">
+                    <div class="jumbotron">
+                        <h1 class="display-4">G Protein-Coupled Receptors</h1>
+                        <p class="lead">Tn the past five years, the field of GPCR structure has exploded. GPCRs (G protein-coupled receptors) are small membrane-spanning proteins, 
+                            with most of their surface buried inside the membrane. This makes them notoriously difficult to crystallize. However, there is a great incentive to 
+                            determine these structures: GPCRs are at the center of signaling pathways that control all manner of essential processes, ranging from vision to carcinogenesis,
+                            and thus are important targets for therapeutic intervention. </p>
+                        <p id=> The structure of rhodopsin in 2000 set the stage, giving the first glimpse at their structure. Recently, 
+                            the development of clever engineering techniques, such as fusing soluble proteins to the receptor or decorating them with antibodies or nanobodies, 
+                            have provided crystallographic structures for a wide range of GPCRs with diffusable ligands.</p>
+                        <hr class="my-4">
+
+                        <div>
+                            <table>
+                                <thead>
+                                  <tr>
+                                    <td></td>
+                                  </tr>
+                                </thead>
+                                <tbody id="displayArea"></tbody>
+                              </table>
+                            </div>
+                            <div class="formdata">
+                              <form action="" method="post" id="myForm">
+                               
+                                Input <input type="text" name="nombre"><br/><br/>
+                                <input  class="btn btn-info" type="submit" name="sub" value="Get Input Value"></form>
+                            </div>
+                      </div>
+                    </div>
+
+
+
+
+                    <div class="container">
+                        <div class="jumbotron">
+                            <h1 class="display-4">Close Up Structure of G Protein</h1>
+
+                            <img id="img-2" src="F1.large.jpg" alt="prota2" class="img-fluid">
+
+                                                        
+                            <p >It uses utility classes for typography and spacing to space content out within the larger container.</p>
+                            
+                            <button id="btn5" type="button" class="btn btn-dark">Fade Out</button>
+                            <button id="btn6" type="button" class="btn btn-dark">Fade In</button>
+
+                        
+                          </div>
+                        </div>
+
+                        <div class="container">
+                            <div class="jumbotron">
+                                <h1 class="display-4">G Protein-Coupled Receptors</h1>
+                                <hr class="my-4">
+
+                                <p>JQuery Method focus.</p> <input id="input-focus"> <br><br>
+                            <button id="btn-focus" class="btn btn-dark">Get Focus</button>
+                        </div>
+                            </div>
+
+                            <div class="container">
+                                <div class="jumbotron">
+                                    <h1 class="display-4">G Protein-Coupled Receptors</h1>
+
+                                    <p id="p-Hide-Show" class="lead">Tn the past five years, the field of GPCR structure has exploded. GPCRs (G protein-coupled receptors) are small membrane-spanning proteins, 
+                                        with most of their surface buried inside the membrane. This makes them notoriously difficult to crystallize. However, there is a great incentive to 
+                                        determine these structures: GPCRs are at the center of signaling pathways that control all manner of essential processes, ranging from vision to carcinogenesis,
+                                        and thus are important targets for therapeutic intervention. </p>
+                                    
+                                        <button id="hide" class="btn btn-dark">Hide</button>
+                                        <button id="show" class="btn btn-dark">Show</button>
+                                    
+                                    
+                                  </div>
+                                </div>
+
+                            <div class="container">
+                                    <div class="jumbotron">
+                                        <h1 class="display-4">G Protein-Coupled Receptors</h1>
+                                        <p id="up-down" class="lead">Tn the past five years, the field of GPCR structure has exploded. GPCRs (G protein-coupled receptors) are small membrane-spanning proteins, 
+                                            with most of their surface buried inside the membrane. This makes them notoriously difficult to crystallize. However, there is a great incentive to 
+                                            determine these structures: GPCRs are at the center of signaling pathways that control all manner of essential processes, ranging from vision to carcinogenesis,
+                                            and thus are important targets for therapeutic intervention. </p>
+                                        
+                                            
+                                            <button id="up" class="btn btn-dark">Slide up</button>
+                                            <button id="down" class="btn btn-dark">Slide down</button>
+                                      </div>
+                                    </div>
+                                  
+        
+</body>
+
+
+
+<script  src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script> 
+</html>
